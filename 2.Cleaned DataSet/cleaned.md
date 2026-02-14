@@ -9,11 +9,10 @@ The following team members executed the data engineering and analysis:
 | Team Member | Primary Responsibility | Key Tasks |
 | :--- | :--- | :--- |
 | **Anushka** | Data Quality & Binary Logic | Mode imputation (Race), MaxGlu logic, Readmission binary mapping. |
-| **Divya** | Feature Engineering | ICD-9 Diagnosis grouping, A1C test logic, Medical status mapping. |
+| **Divya** | Feature Engineering & Documentation | ICD-9 Diagnosis grouping, A1C test logic, Medical status mapping. |
 | **Mitul** | Data Cleaning & Reduction | Gender cleaning, Column reduction (21 columns removed), Record deduplication. |
-| **Dhruv** | Data Preprocessing | Handling missing values (Weight, Payer Code, Medical Specialty). |
-| **Aryan** | Analysis & PPT Lead | KPI framework validation and presentation storytelling. |
-| **Danny** | Clinical Logic | Discharge disposition mapping and hospice logic. |
+| **Dhruv** | Data Preprocessing & Randomization | Handling missing values (Weight, Payer Code, Medical Specialty) and **dataset randomization**. |
+| **Daniel** | Clinical Logic | Discharge disposition mapping and hospice logic. |
 
 ---
 
@@ -30,9 +29,10 @@ The raw dataset underwent a rigorous "Data Approval" gate process to ensure high
 * **Irrelevant Columns**: Removed 21 columns including `diag_2`, and `diag_3` to focus on primary triggers.
 * **Medication Cleanup**: Targeted 24 specific medication columns (e.g., Repaglinide, Nateglinide, Acarbose) for removal to simplify the medication change analysis.
 
-### 3. Record Deduplication
+### 3. Record Deduplication & Sampling
 * **Single Encounter Rule**: Data was sorted by `patient_nbr` and `encounter_id`. Only the **first encounter** for each unique patient was kept to avoid bias from multiple visits by the same individual.
-* **Sampling**: A randomized **10,000-row sample** was generated for the final analysis.
+* **Randomized Sampling**: A randomized **15,000-row sample** was generated for the final analysis to ensure a representative subset. 
+* **Reproducibility**: The randomization and preprocessing logic can be reviewed in this [Google Colab Notebook](https://colab.research.google.com/drive/1gCpRNL8pt-mFQt_GnxZ_Dkaw_WaMZ91C?usp=sharing).
 
 ---
 
@@ -49,6 +49,3 @@ We created new logical features to answer specific clinical questions:
     * `A1C_None`: 1 if the A1C test was not performed (Process Failure).
     * `A1C_High`: 1 if result was >7 or >8 (Uncontrolled Diabetes).
     * `MaxGlu_High`: 1 if result >200 or >300.
-
----
-
