@@ -31,7 +31,7 @@ The raw dataset underwent a rigorous "Data Approval" gate process to ensure high
 
 ### 3. Record Deduplication & Sampling
 * **Single Encounter Rule**: Data was sorted by `patient_nbr` and `encounter_id`. Only the **first encounter** for each unique patient was kept to avoid bias from multiple visits by the same individual.
-* **Randomized Sampling**: A randomized **15,000-row sample** was generated for the final analysis to ensure a representative subset. 
+* **Randomized Sampling**: A randomized **14,117-row sample** was generated for the final analysis to ensure a representative subset. 
 * **Reproducibility**: The randomization and preprocessing logic can be reviewed in this [Google Colab Notebook](https://colab.research.google.com/drive/1gCpRNL8pt-mFQt_GnxZ_Dkaw_WaMZ91C?usp=sharing).
 
 ---
@@ -49,3 +49,4 @@ We created new logical features to answer specific clinical questions:
     * `A1C_None`: 1 if the A1C test was not performed (Process Failure).
     * `A1C_High`: 1 if result was >7 or >8 (Uncontrolled Diabetes).
     * `MaxGlu_High`: 1 if result >200 or >300.
+
