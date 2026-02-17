@@ -2,6 +2,8 @@
 **Sector:** Healthcare Analytics | **Course:** Data & Visual Analytics Capstone Project | **Group:** Section A - Group 16
 
 ---
+<img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/56ea3d2e-4d21-4882-b711-3e0ee9231f25" />
+
 
 ## Executive Summary
 
@@ -76,7 +78,8 @@ Interactive dashboard built in Google Sheets with filters for Age, Primary Condi
 
 ### Dashboard Preview
 
-![Dashboard Overview](4.Dashboard/dashboard_overview.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8c742f3-6938-4301-80d1-b91c9d6a8ae6" />
+
 
 *Filters: Age Group (0-100) | Primary Condition | Medication Status*
 
