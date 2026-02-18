@@ -9,7 +9,7 @@
 
 Hospital readmissions within 30 days are a critical performance and cost indicator in healthcare systems. This project analyzes patient data from **130 US Hospitals (1999–2008)** across multiple conditions (Circulatory, Diabetes, Respiratory, and Others) to identify key drivers of 30-day readmission and provide actionable recommendations for reducing avoidable readmissions.
 
-## Key Metrics at a Glance
+### Key Metrics at a Glance
 
 | Metric | Value |
 |--------|-------|
