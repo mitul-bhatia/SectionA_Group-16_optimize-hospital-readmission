@@ -5,6 +5,14 @@
 <img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/56ea3d2e-4d21-4882-b711-3e0ee9231f25" />
 
 
+## 📌 Project Deliverables
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| Dashboard | Data analysis dashboard built in Google Sheets | [View Dashboard](https://docs.google.com/spreadsheets/d/1O9ktR8TgjLLK78r6jr7WEQM6ACvUh9578WUX17QA_6Y/edit?usp=sharing) |
+| Report | Detailed project documentation and findings | [Read Report](https://docs.google.com/document/d/1OpGGbBcgYuE_MUo0Pr7Cd5c-X85k41qyP35bcv5DRxo/edit?usp=sharing) |
+| Presentation | Final project presentation slides | [View Slides](https://www.canva.com/design/DAHBUMkkU2g/xx2BWKQwTyFcczpK15xcSg/edit?utm_content=DAHBUMkkU2g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
+
 ## Executive Summary
 
 Hospital readmissions within 30 days are a critical performance and cost indicator in healthcare systems. This project analyzes patient data from **130 US Hospitals (1999–2008)** across multiple conditions (Circulatory, Diabetes, Respiratory, and Others) to identify key drivers of 30-day readmission and provide actionable recommendations for reducing avoidable readmissions.
