@@ -127,7 +127,7 @@ Interactive dashboard built in Google Sheets with filters for Age, Primary Condi
 
 | Team Member | Dataset & Sourcing | Cleaning | KPI & Analysis | Dashboard | Report Writing | PPT | Role |
 |-------------|:------------------:|:--------:|:--------------:|:---------:|:--------------:|:---:|------|
-| **Mitul Bhatia** | ✔ | ✔ | ✔ | ✔ | ✔ |  | Project Lead |
+| **Mitul Bhatia** | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | Project Lead |
 | **Divya Singh** | ✔ | ✔ | ✔ | | ✔ | | Data Lead |
 | **Dhruv Ramani** | ✔ | ✔ | ✔ | ✔ | | | Analysis Lead |
 | **Aaryan Gera** | ✔ | | ✔ | ✔ | | | Dashboard Lead |
